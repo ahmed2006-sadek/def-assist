@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+*{
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+.cil1{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: -4px -3px 12px 0px rgba(0,0,0,1) inset;
+    position: relative;
+    margin: auto;
+    contain: content;
+}
+.cil2{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: -4px -3px 12px 0px rgba(0,0,0,1) inset;
+    position: relative;
+    margin: auto;
+    font-size: x-large;
+    padding: 5px;
+}
+hr{
+    width: 50px;
+}
+.dad{
+    display: flex;
+}
+video{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+body{
+    background-color: rgba(12, 12, 12, 0.897);
+}
+.cil1, .cil2{
+    background-color: white;
+}
+button{
+    padding: 2px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+    height: 40px;   
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid;
+}
+.btns{
+    margin-top: 12%;
+}
+pre{
+    margin-top: 35%;
+}
+@media screen and (max-width: 500px) {
+    .cil1{
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: -4px -3px 12px 0px rgba(0,0,0,1) inset;
+        position: relative;
+        margin: auto;
+        contain: content;
+    }
+    .cil2{
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: -4px -3px 12px 0px rgba(0,0,0,1) inset;
+        position: relative;
+        margin: auto;
+        font-size: x-large;
+        padding: 5px;
+    }
+    hr{
+        width: 50px;
+    }
+    .dad{
+        display: block;
+    }
+    video{
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+    }
+    button{
+        padding: 2px 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: large;
+        height: 40px;
+        border-radius: 20px 20px 20px 20px;
+        border: 2px solid;
+        display: inline-block;
+    }
+    .btns{
+        margin-top: 0;
+    }   
+}
